@@ -1,0 +1,2280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		816F48416DC44AD3A368DE6D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 73B6C98196344F17BDAFFA39 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				0E9925EA37A04E6487EE3FF0 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				164C5E95F7C84EEC85863A70 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		8DE6C34598BA4CF7BCEBD971 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A435C0BFB7B94094B6D0D6A2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8F454B72915B483DB592FADE /* CMake Rules */,
+			);
+			dependencies = (
+				67EA45C2345D499B8DEF74FB /* PBXTargetDependency */,
+				C27A904FC30740A6ACE52EB6 /* PBXTargetDependency */,
+				0B536C60F58046E18DD6B146 /* PBXTargetDependency */,
+				775030EB27604099AD28BB4B /* PBXTargetDependency */,
+				A5A4C76A5862475EA091A3C1 /* PBXTargetDependency */,
+				7B5D8E41DCAD49A2B86CC019 /* PBXTargetDependency */,
+				89DD236C670C462087E0F5AE /* PBXTargetDependency */,
+				3DBBFE4B8F2C41B599F19E94 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		92495D1A71FB4D929D5BF7A4 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5504D39976024293AD7DAB49 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				020CC0995E9F415588938E14 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		C5867DA22BC64D9EA80E9579 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C6D4106697154B6F8D43A166 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				53C23FB6D62B46658502BD1A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		CD39F719F9BC40118E83A328 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1D2ED24A18E04A209475EE5E /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				8857227629534D8288117F0C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D1F574D534854E05A8D9A9DC /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		031CF6E5ECAB4341BFBAADDC /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B09AA2F712F143378322A020 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		0515D028CB0E4C589675F3E3 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3C0AC6E03C1D49F193B9565D /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		47958E6F633A41E4B69C0B3E /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXBuildFile; fileRef = A9ED90D0495B4DC5BCFD6650 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		48925F093A76428A9E325A24 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */ = {isa = PBXBuildFile; fileRef = 3C6B9A92AA44467FAA913D33 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4D12E0DA26024B3B91BAC4A5 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXBuildFile; fileRef = 5A2738C9C8214FA7BD9B77E6 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		519C1676160E4254B5ECBA3E /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */ = {isa = PBXBuildFile; fileRef = 2D1D7B7A3EC74929A53D3178 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5CBB8A0F858D45869F2AC583 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */ = {isa = PBXBuildFile; fileRef = 54DC220314FF41C59AF8E9B0 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6006260362D7423F9564357A /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */ = {isa = PBXBuildFile; fileRef = 5FFF4E04B8E2420C9BF8185F /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		793EEB41CE0F42D5A1C5210F /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 51D9A298CB444831BBBB25EA /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		7D37A3FFCD004666B0B9A50A /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */ = {isa = PBXBuildFile; fileRef = 6FD83CFCF5A84FCDBBEFA678 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7EE6BEA29C2247FCA96DE396 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXBuildFile; fileRef = 7B0E76A27AAE4BC4B2D648D1 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7EECDF609CD94B43AE25A69B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */ = {isa = PBXBuildFile; fileRef = 5D3B12F2DE3B420EB9F56FBD /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		82182118AAA54F3FB4B849CA /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EA7D1BDB211F426683A1642F /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		8CC7A99C47EA49B3898A2401 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */ = {isa = PBXBuildFile; fileRef = 2730C7A7353C47E181F72910 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8CE176101BD64819B80B686F /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXBuildFile; fileRef = 5D7AC0BA0E1B4B43BDCF1D1C /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		976663ABB799499FB535B481 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */ = {isa = PBXBuildFile; fileRef = EAAD4236650A428B9F4707CC /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B3B54D9C9F2D4BA9B0B37722 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXBuildFile; fileRef = 7144651388D84C04A5677F36 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B3B86C6F62484AB9836781D8 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp */ = {isa = PBXBuildFile; fileRef = 6CCB1A34094147ADA28AAAF6 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B589E7FB844940419AA13681 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */ = {isa = PBXBuildFile; fileRef = BEFB6844E672464CBD65375B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B6617F0D157E4A9696323353 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A87D49AA1DEE410FA8F7DC7B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		B6F45581251B4411A894C463 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXBuildFile; fileRef = 1CD2093978194305B0066079 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B8B04BD5E8E24AADBBEC7D40 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp */ = {isa = PBXBuildFile; fileRef = 364653CCBB834F96A54CF77C /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C05DC7BA714B4B5F81518DE1 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C0393717F774460E96F4DD26 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		C895FFC0A0CE427CB1CAA647 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp */ = {isa = PBXBuildFile; fileRef = 170C9A7033064133A41EE802 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D22DB30F6FFB462FB6AA948B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXBuildFile; fileRef = FD86643A6C324AD98A224203 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D782297C30C0437B93DF0641 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8738D9834C744E3A905B7562 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		E3E008B9008E4FDB94266E76 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */ = {isa = PBXBuildFile; fileRef = F46D12C17D7B4BE392DE8865 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EDD1F45FC06B473980F1F614 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */ = {isa = PBXBuildFile; fileRef = B9EF0615E9FC42C5861131FE /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F46A225830D04A5987584263 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXBuildFile; fileRef = 67C737B27FD44D04A3648464 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4EE376E9E78B40A88E64393E = {
+			isa = PBXBuildStyle;
+		};
+		4F5DD31F04454B5B8F47081A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		92142A0C09E74BDEAC3C4C8D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C6D9A16EF747482FAA86AE94 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D51CBD09813148FBB3B315B1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		13FF243B23FC4FFFA1C0C4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89F61B28083C44C4B1938917;
+			remoteInfo = IlmThread;
+		};
+		270C11A87CF347D085AC9963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA712D67232241CEA8E4D116;
+			remoteInfo = eLut;
+		};
+		2FDB98A4317F4D4B8208BE15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7ACD4C2ECC349BEA1658B8C;
+			remoteInfo = toFloat;
+		};
+		38DA9544288D4DF9B24808A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878BC1CA096F4537BB67472F;
+			remoteInfo = Imath;
+		};
+		3A596B07473E49D18D0453F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C81BEC04A83426ABDC30819;
+			remoteInfo = IexMath;
+		};
+		4268CA8D46C242E18388FBCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5867DA22BC64D9EA80E9579;
+			remoteInfo = ZERO_CHECK;
+		};
+		6BF898C7AC204048907A3444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7ACD4C2ECC349BEA1658B8C;
+			remoteInfo = toFloat;
+		};
+		893B64873F994293A08D1303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57FD70C4275F47AC8C1974C5;
+			remoteInfo = Iex;
+		};
+		8D3693338BDD461D991BCDBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2CEA02890A444F49A780730;
+			remoteInfo = Half;
+		};
+		D68DE34B39F0472E87B0FB86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57FD70C4275F47AC8C1974C5;
+			remoteInfo = Iex;
+		};
+		DFFC922678014CC9A6CC590E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE6C34598BA4CF7BCEBD971;
+			remoteInfo = ALL_BUILD;
+		};
+		E0A033CD1E154E3BB12666FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57FD70C4275F47AC8C1974C5;
+			remoteInfo = Iex;
+		};
+		E331D191B25E40F495AE2169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57FD70C4275F47AC8C1974C5;
+			remoteInfo = Iex;
+		};
+		E376242FCAFD44A1B02DB98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE6C34598BA4CF7BCEBD971;
+			remoteInfo = ALL_BUILD;
+		};
+		E6C86FDB769646D4A0B96F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A191396EE384AF6BCF98C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA712D67232241CEA8E4D116;
+			remoteInfo = eLut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170C9A7033064133A41EE802 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = toFloat.cpp; path = Half/toFloat.cpp; sourceTree = SOURCE_ROOT; };
+		1CD2093978194305B0066079 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosix.cpp; path = IlmThread/IlmThreadSemaphorePosix.cpp; sourceTree = SOURCE_ROOT; };
+		2730C7A7353C47E181F72910 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexMathFpu.cpp; path = IexMath/IexMathFpu.cpp; sourceTree = SOURCE_ROOT; };
+		2D1D7B7A3EC74929A53D3178 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexMathFloatExc.cpp; path = IexMath/IexMathFloatExc.cpp; sourceTree = SOURCE_ROOT; };
+		34744C97DC2042A1ABC78BDA /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		364653CCBB834F96A54CF77C /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eLut.cpp; path = Half/eLut.cpp; sourceTree = SOURCE_ROOT; };
+		37EE731128B14A5CA514D461 /* toFloat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = toFloat; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0AC6E03C1D49F193B9565D /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Half/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3C6B9A92AA44467FAA913D33 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPool.cpp; path = IlmThread/IlmThreadPool.cpp; sourceTree = SOURCE_ROOT; };
+		51D9A298CB444831BBBB25EA /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = IexMath/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		54DC220314FF41C59AF8E9B0 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathVec.cpp; path = Imath/ImathVec.cpp; sourceTree = SOURCE_ROOT; };
+		5A2738C9C8214FA7BD9B77E6 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosixCompat.cpp; path = IlmThread/IlmThreadSemaphorePosixCompat.cpp; sourceTree = SOURCE_ROOT; };
+		5D3B12F2DE3B420EB9F56FBD /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathBox.cpp; path = Imath/ImathBox.cpp; sourceTree = SOURCE_ROOT; };
+		5D7AC0BA0E1B4B43BDCF1D1C /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphore.cpp; path = IlmThread/IlmThreadSemaphore.cpp; sourceTree = SOURCE_ROOT; };
+		5FFF4E04B8E2420C9BF8185F /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathShear.cpp; path = Imath/ImathShear.cpp; sourceTree = SOURCE_ROOT; };
+		67C737B27FD44D04A3648464 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutex.cpp; path = IlmThread/IlmThreadMutex.cpp; sourceTree = SOURCE_ROOT; };
+		6CCB1A34094147ADA28AAAF6 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = half.cpp; path = Half/half.cpp; sourceTree = SOURCE_ROOT; };
+		6FD83CFCF5A84FCDBBEFA678 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexBaseExc.cpp; path = Iex/IexBaseExc.cpp; sourceTree = SOURCE_ROOT; };
+		7144651388D84C04A5677F36 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutexPosix.cpp; path = IlmThread/IlmThreadMutexPosix.cpp; sourceTree = SOURCE_ROOT; };
+		7B0E76A27AAE4BC4B2D648D1 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexThrowErrnoExc.cpp; path = Iex/IexThrowErrnoExc.cpp; sourceTree = SOURCE_ROOT; };
+		8062D7FF365D40828CE9294D /* IexMath */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIexMath.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		8738D9834C744E3A905B7562 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Imath/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8D057DD7970E49FB8441B2D5 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A87D49AA1DEE410FA8F7DC7B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Half/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A9ED90D0495B4DC5BCFD6650 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathMatrixAlgo.cpp; path = Imath/ImathMatrixAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		B09AA2F712F143378322A020 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = IlmThread/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B2C9DFF5CB24411786C9C771 /* eLut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = eLut; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EF0615E9FC42C5861131FE /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathRandom.cpp; path = Imath/ImathRandom.cpp; sourceTree = SOURCE_ROOT; };
+		BEFB6844E672464CBD65375B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathColorAlgo.cpp; path = Imath/ImathColorAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		C0393717F774460E96F4DD26 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Iex/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C63C90AD5E7D463F8096D107 /* Imath */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libImath.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE4E10B7F04435A947C5274 /* Iex */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIex.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE4386D92614F64BAD87E2A /* IlmThread */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIlmThread.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95E298EFA7E4D8486968DA2 /* Half */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHalf.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7D1BDB211F426683A1642F /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Half/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EAAD4236650A428B9F4707CC /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathFun.cpp; path = Imath/ImathFun.cpp; sourceTree = SOURCE_ROOT; };
+		F46D12C17D7B4BE392DE8865 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThread.cpp; path = IlmThread/IlmThread.cpp; sourceTree = SOURCE_ROOT; };
+		FD86643A6C324AD98A224203 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPosix.cpp; path = IlmThread/IlmThreadPosix.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		10FDEAC3475845289F9504E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1E61FF4968DD48AE84695F3C /* Iex */ = {
+			isa = PBXGroup;
+			children = (
+				327F4BAE30664C898A645CD8 /* Source Files */,
+				C0393717F774460E96F4DD26 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/CMakeLists.txt */,
+			);
+			name = Iex;
+			sourceTree = "<group>";
+		};
+		20261C99D9774917AB2C4C26 /* Half */ = {
+			isa = PBXGroup;
+			children = (
+				3CC825F588244441B798DE67 /* Source Files */,
+				A87D49AA1DEE410FA8F7DC7B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */,
+			);
+			name = Half;
+			sourceTree = "<group>";
+		};
+		2B44D8896F7943E187882D96 /* Imath */ = {
+			isa = PBXGroup;
+			children = (
+				95331474465E4757B79F29B2 /* Source Files */,
+				8738D9834C744E3A905B7562 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/CMakeLists.txt */,
+			);
+			name = Imath;
+			sourceTree = "<group>";
+		};
+		327F4BAE30664C898A645CD8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FD83CFCF5A84FCDBBEFA678 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */,
+				7B0E76A27AAE4BC4B2D648D1 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3CC825F588244441B798DE67 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB1A34094147ADA28AAAF6 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		43441CE0B48B4B21BFD83FBA /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				E0931718BCBC44FD8A3C255C /* CMake Rules */,
+				34744C97DC2042A1ABC78BDA /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		650A96DCFCE34712ADEC0133 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				170C9A7033064133A41EE802 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		67D63394EEB449FBA92710FE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F46D12C17D7B4BE392DE8865 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */,
+				67C737B27FD44D04A3648464 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */,
+				7144651388D84C04A5677F36 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */,
+				3C6B9A92AA44467FAA913D33 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */,
+				FD86643A6C324AD98A224203 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */,
+				5D7AC0BA0E1B4B43BDCF1D1C /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */,
+				1CD2093978194305B0066079 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				5A2738C9C8214FA7BD9B77E6 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8AA6F18B30F248F3989F399E /* eLut */ = {
+			isa = PBXGroup;
+			children = (
+				A5033894FE1947FFAEC53CFC /* Source Files */,
+				3C0AC6E03C1D49F193B9565D /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */,
+			);
+			name = eLut;
+			sourceTree = "<group>";
+		};
+		8FF4FE919518404CB0D132A1 /* IlmThread */ = {
+			isa = PBXGroup;
+			children = (
+				67D63394EEB449FBA92710FE /* Source Files */,
+				B09AA2F712F143378322A020 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt */,
+			);
+			name = IlmThread;
+			sourceTree = "<group>";
+		};
+		935727A5393647CE842F9A2F /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				20261C99D9774917AB2C4C26 /* Half */,
+				E82C9910546B4D479BD8920E /* toFloat */,
+				8AA6F18B30F248F3989F399E /* eLut */,
+				1E61FF4968DD48AE84695F3C /* Iex */,
+				D39D0563EE9B42D7819B5076 /* IexMath */,
+				2B44D8896F7943E187882D96 /* Imath */,
+				8FF4FE919518404CB0D132A1 /* IlmThread */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
+		95331474465E4757B79F29B2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D3B12F2DE3B420EB9F56FBD /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */,
+				BEFB6844E672464CBD65375B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */,
+				EAAD4236650A428B9F4707CC /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */,
+				A9ED90D0495B4DC5BCFD6650 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */,
+				B9EF0615E9FC42C5861131FE /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */,
+				5FFF4E04B8E2420C9BF8185F /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */,
+				54DC220314FF41C59AF8E9B0 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A4C6C34114234CC68F1F5CFD = {
+			isa = PBXGroup;
+			children = (
+				C2D69621A71F4673B76BE6A0 /* Sources */,
+				10FDEAC3475845289F9504E6 /* Resources */,
+				C1F50320A1AE45BB899FC418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5033894FE1947FFAEC53CFC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				364653CCBB834F96A54CF77C /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C1F50320A1AE45BB899FC418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E95E298EFA7E4D8486968DA2 /* Half */,
+				B2C9DFF5CB24411786C9C771 /* eLut */,
+				37EE731128B14A5CA514D461 /* toFloat */,
+				CEE4E10B7F04435A947C5274 /* Iex */,
+				8062D7FF365D40828CE9294D /* IexMath */,
+				C63C90AD5E7D463F8096D107 /* Imath */,
+				DAE4386D92614F64BAD87E2A /* IlmThread */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D69621A71F4673B76BE6A0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				43441CE0B48B4B21BFD83FBA /* ZERO_CHECK */,
+				DA12513AB42948168901B5E4 /* ALL_BUILD */,
+				935727A5393647CE842F9A2F /* dependencies */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		D39D0563EE9B42D7819B5076 /* IexMath */ = {
+			isa = PBXGroup;
+			children = (
+				DF7F30B41A5446BA9BB9BBDD /* Source Files */,
+				51D9A298CB444831BBBB25EA /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt */,
+			);
+			name = IexMath;
+			sourceTree = "<group>";
+		};
+		DA12513AB42948168901B5E4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C0BD4D196490ABB980FE6 /* CMake Rules */,
+				8D057DD7970E49FB8441B2D5 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DF7F30B41A5446BA9BB9BBDD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D1D7B7A3EC74929A53D3178 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */,
+				2730C7A7353C47E181F72910 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E0931718BCBC44FD8A3C255C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E82C9910546B4D479BD8920E /* toFloat */ = {
+			isa = PBXGroup;
+			children = (
+				650A96DCFCE34712ADEC0133 /* Source Files */,
+				EA7D1BDB211F426683A1642F /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeLists.txt */,
+			);
+			name = toFloat;
+			sourceTree = "<group>";
+		};
+		FC9C0BD4D196490ABB980FE6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57FD70C4275F47AC8C1974C5 /* Iex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B16848981B4A0CAC4006F7 /* Build configuration list for PBXNativeTarget "Iex" */;
+			buildPhases = (
+				960FF78AA75F4CDE89D112FC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Iex;
+			productName = Iex;
+			productReference = CEE4E10B7F04435A947C5274 /* Iex */;
+			productType = "com.apple.product-type.library.static";
+		};
+		878BC1CA096F4537BB67472F /* Imath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8DFDC42614445AA27CFE4A /* Build configuration list for PBXNativeTarget "Imath" */;
+			buildPhases = (
+				7970C271715B4660B6A4C3CF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1B2D376C2B4C4FA941D39E /* PBXTargetDependency */,
+			);
+			name = Imath;
+			productName = Imath;
+			productReference = C63C90AD5E7D463F8096D107 /* Imath */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89F61B28083C44C4B1938917 /* IlmThread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17494C8C3FF843C687C48731 /* Build configuration list for PBXNativeTarget "IlmThread" */;
+			buildPhases = (
+				FB17196BA79C410489C431BF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF9057A0C2F42B2A656857B /* PBXTargetDependency */,
+			);
+			name = IlmThread;
+			productName = IlmThread;
+			productReference = DAE4386D92614F64BAD87E2A /* IlmThread */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C81BEC04A83426ABDC30819 /* IexMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C164F355A48845619F977739 /* Build configuration list for PBXNativeTarget "IexMath" */;
+			buildPhases = (
+				D9304EFE26E64ECD8D0882EF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6237972CFC74A369047C114 /* PBXTargetDependency */,
+			);
+			name = IexMath;
+			productName = IexMath;
+			productReference = 8062D7FF365D40828CE9294D /* IexMath */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A2CEA02890A444F49A780730 /* Half */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311EE81B9EC047E3A2A99E35 /* Build configuration list for PBXNativeTarget "Half" */;
+			buildPhases = (
+				F2311A429B5C4649B1627EF8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D1B595160848F7BF3A979C /* PBXTargetDependency */,
+				4EF2D16246214649BCB87E1E /* PBXTargetDependency */,
+			);
+			name = Half;
+			productName = Half;
+			productReference = E95E298EFA7E4D8486968DA2 /* Half */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7ACD4C2ECC349BEA1658B8C /* toFloat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC39CB2171343A182D58C52 /* Build configuration list for PBXNativeTarget "toFloat" */;
+			buildPhases = (
+				9260A4FF66274F319C7243F4 /* Sources */,
+				1CF0DCF1CA9248E9B43FF56B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toFloat;
+			productName = toFloat;
+			productReference = 37EE731128B14A5CA514D461 /* toFloat */;
+			productType = "com.apple.product-type.tool";
+		};
+		FA712D67232241CEA8E4D116 /* eLut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F24E3ACF974348AE412C84 /* Build configuration list for PBXNativeTarget "eLut" */;
+			buildPhases = (
+				939CD3C826F4447F92F7A7D2 /* Sources */,
+				586CC3478A354338A568071C /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eLut;
+			productName = eLut;
+			productReference = B2C9DFF5CB24411786C9C771 /* eLut */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A191396EE384AF6BCF98C22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = F9F89677252E41F183F9E647 /* Build configuration list for PBXProject "ilmbase" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D51CBD09813148FBB3B315B1 /* Debug */,
+				4F5DD31F04454B5B8F47081A /* Release */,
+				C6D9A16EF747482FAA86AE94 /* MinSizeRel */,
+				92142A0C09E74BDEAC3C4C8D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A4C6C34114234CC68F1F5CFD;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				8DE6C34598BA4CF7BCEBD971 /* ALL_BUILD */,
+				92495D1A71FB4D929D5BF7A4 /* RUN_TESTS */,
+				C5867DA22BC64D9EA80E9579 /* ZERO_CHECK */,
+				816F48416DC44AD3A368DE6D /* install */,
+				CD39F719F9BC40118E83A328 /* package */,
+				A2CEA02890A444F49A780730 /* Half */,
+				FA712D67232241CEA8E4D116 /* eLut */,
+				C7ACD4C2ECC349BEA1658B8C /* toFloat */,
+				57FD70C4275F47AC8C1974C5 /* Iex */,
+				9C81BEC04A83426ABDC30819 /* IexMath */,
+				878BC1CA096F4537BB67472F /* Imath */,
+				89F61B28083C44C4B1938917 /* IlmThread */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		020CC0995E9F415588938E14 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase -f /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		0E9925EA37A04E6487EE3FF0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase -f /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1CF0DCF1CA9248E9B43FF56B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half -f /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeScripts/toFloat_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2173DE9612B24319B2D7B9FF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		53C23FB6D62B46658502BD1A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase -f /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		586CC3478A354338A568071C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half -f /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/CMakeScripts/eLut_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5A428032BDE141E09036C1E4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6C2BBBB294AF4593B05B266E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7D564BE094794A27966EA8A7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8857227629534D8288117F0C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase -f /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8F454B72915B483DB592FADE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase -f /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9EF0A0F11D074621A0DA7D88 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7970C271715B4660B6A4C3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EECDF609CD94B43AE25A69B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */,
+				B589E7FB844940419AA13681 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */,
+				976663ABB799499FB535B481 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */,
+				47958E6F633A41E4B69C0B3E /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */,
+				EDD1F45FC06B473980F1F614 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */,
+				6006260362D7423F9564357A /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */,
+				5CBB8A0F858D45869F2AC583 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9260A4FF66274F319C7243F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C895FFC0A0CE427CB1CAA647 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939CD3C826F4447F92F7A7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B04BD5E8E24AADBBEC7D40 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960FF78AA75F4CDE89D112FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D37A3FFCD004666B0B9A50A /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */,
+				7EE6BEA29C2247FCA96DE396 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9304EFE26E64ECD8D0882EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519C1676160E4254B5ECBA3E /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */,
+				8CC7A99C47EA49B3898A2401 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2311A429B5C4649B1627EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B86C6F62484AB9836781D8 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB17196BA79C410489C431BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E008B9008E4FDB94266E76 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */,
+				F46A225830D04A5987584263 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */,
+				B3B54D9C9F2D4BA9B0B37722 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */,
+				48925F093A76428A9E325A24 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */,
+				D22DB30F6FFB462FB6AA948B /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */,
+				8CE176101BD64819B80B686F /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */,
+				B6F45581251B4411A894C463 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				4D12E0DA26024B3B91BAC4A5 /* /Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D1B595160848F7BF3A979C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7ACD4C2ECC349BEA1658B8C /* toFloat */;
+			targetProxy = 2FDB98A4317F4D4B8208BE15 /* PBXContainerItemProxy */;
+		};
+		0B536C60F58046E18DD6B146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA712D67232241CEA8E4D116 /* eLut */;
+			targetProxy = E6C86FDB769646D4A0B96F26 /* PBXContainerItemProxy */;
+		};
+		164C5E95F7C84EEC85863A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE6C34598BA4CF7BCEBD971 /* ALL_BUILD */;
+			targetProxy = E376242FCAFD44A1B02DB98D /* PBXContainerItemProxy */;
+		};
+		3DBBFE4B8F2C41B599F19E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5867DA22BC64D9EA80E9579 /* ZERO_CHECK */;
+			targetProxy = 4268CA8D46C242E18388FBCF /* PBXContainerItemProxy */;
+		};
+		3FF9057A0C2F42B2A656857B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57FD70C4275F47AC8C1974C5 /* Iex */;
+			targetProxy = 893B64873F994293A08D1303 /* PBXContainerItemProxy */;
+		};
+		4EF2D16246214649BCB87E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA712D67232241CEA8E4D116 /* eLut */;
+			targetProxy = 270C11A87CF347D085AC9963 /* PBXContainerItemProxy */;
+		};
+		67EA45C2345D499B8DEF74FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2CEA02890A444F49A780730 /* Half */;
+			targetProxy = 8D3693338BDD461D991BCDBD /* PBXContainerItemProxy */;
+		};
+		775030EB27604099AD28BB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57FD70C4275F47AC8C1974C5 /* Iex */;
+			targetProxy = E0A033CD1E154E3BB12666FE /* PBXContainerItemProxy */;
+		};
+		7B5D8E41DCAD49A2B86CC019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878BC1CA096F4537BB67472F /* Imath */;
+			targetProxy = 38DA9544288D4DF9B24808A0 /* PBXContainerItemProxy */;
+		};
+		89DD236C670C462087E0F5AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89F61B28083C44C4B1938917 /* IlmThread */;
+			targetProxy = 13FF243B23FC4FFFA1C0C4D5 /* PBXContainerItemProxy */;
+		};
+		A5A4C76A5862475EA091A3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C81BEC04A83426ABDC30819 /* IexMath */;
+			targetProxy = 3A596B07473E49D18D0453F9 /* PBXContainerItemProxy */;
+		};
+		A6237972CFC74A369047C114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57FD70C4275F47AC8C1974C5 /* Iex */;
+			targetProxy = D68DE34B39F0472E87B0FB86 /* PBXContainerItemProxy */;
+		};
+		AF1B2D376C2B4C4FA941D39E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57FD70C4275F47AC8C1974C5 /* Iex */;
+			targetProxy = E331D191B25E40F495AE2169 /* PBXContainerItemProxy */;
+		};
+		C27A904FC30740A6ACE52EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7ACD4C2ECC349BEA1658B8C /* toFloat */;
+			targetProxy = 6BF898C7AC204048907A3444 /* PBXContainerItemProxy */;
+		};
+		D1F574D534854E05A8D9A9DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE6C34598BA4CF7BCEBD971 /* ALL_BUILD */;
+			targetProxy = DFFC922678014CC9A6CC590E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00DDFD902B4941BD9DDC21F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare      -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Half;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		07525D1AE3184D649829A27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		08234A802F1B4EAC976DCE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toFloat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		0B5A3143AF5C4296989C71FF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare        -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Imath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		0D8310BB50244F738D01F194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Imath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		13B44178E40144B68C0C9399 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IexMath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		1728C60B8F924E66B5E3E6BD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare        -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IexMath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		18865A4D84624BE98D7C22EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		1AA240219C9D4DA4B9EFC2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/build";
+			};
+			name = Release;
+		};
+		1F404DF93AE84ED695076043 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		231CE6E173E442D0B014CAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		2431B513DFFD465785903C38 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Imath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		24C47C1386F648D29105D0D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare        -DNDEBUG   -pthread";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toFloat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		27B1C83D95564E418F098809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		2BA3151D2D744776A272AFE4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		2FC2E1A279704FBEAA7BC6D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare      -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IexMath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		386F4B9C8E754C24B2EE2B1F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/build";
+			};
+			name = RelWithDebInfo;
+		};
+		39B5D33E82CD4A659E8AE6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		44B26AE473624BBDB2BAAEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4F0DB9A89BA54CD7A96797A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare      -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Imath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		5530D294CDA046E0BC4DF447 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmThread;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		5743006E33814C51863109AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare        -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmThread;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		5BE39CD818F2422AAF6847D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		5F75AA865E374A2EAC0E8EDC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		6312944DBD8F44B086DC93DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Iex;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		66F4A23C3F1B4FF78DF3C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IexMath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		6C7F51E2BB8B420D8BFAAD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare      -pthread";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toFloat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		6DC311A77A244D5AAE4E6A09 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		7605C8821A0A416AA00F4C00 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Iex;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		7CD26971A7194269B296B684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/build";
+			};
+			name = Debug;
+		};
+		93275179CE66434B905D9C5E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Half;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		9CE24567BACA4BD7B450EB1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		A360ACDB88DA4303BB735D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare      -pthread";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eLut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A874791C1E5B46DD894D4F61 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare        -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Half;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		B330276697034AE1B48AB3CF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/build";
+			};
+			name = MinSizeRel;
+		};
+		B4A2AEC74B994F008B51197D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		BA3356D410194CE09B4F6B0A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toFloat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C0F0210753BD43909E0F643C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eLut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C314C429DDDD46DE8E5A6FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		C49DF31A38644060B0CE04AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare        -DNDEBUG   -pthread";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eLut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		C8AB057429774428B2183471 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C95B83C012E448048586EC4F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C9EC8356DCEE488B8BD5D705 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		CB94348ACE4A4629B74EBFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare      -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Iex;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		CE075B214375489FACBB601D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Half;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		D09535A16C364F4786A6B911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmThread;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		DC8D7674A3464747AB4A3AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare      -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmThread;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F8AAB06648CC48A584045CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F9AD919887F446FF89D5050B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare        -DNDEBUG   -pthread";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Iex;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		FB6A8117AD124C258FE6DFAC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		FCBECE1081CD409D900907F6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		FD8A158E95CA48F39ADC784C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Iex", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IexMath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Imath", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/config", "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/IlmThread", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -Wno-deprecated-register -Wno-switch -Wno-tautological-compare     -DNDEBUG   -pthread";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eLut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/leisure/pbrt-v3/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17494C8C3FF843C687C48731 /* Build configuration list for PBXNativeTarget "IlmThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8D7674A3464747AB4A3AF1 /* Debug */,
+				D09535A16C364F4786A6B911 /* Release */,
+				5530D294CDA046E0BC4DF447 /* MinSizeRel */,
+				5743006E33814C51863109AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1B8DFDC42614445AA27CFE4A /* Build configuration list for PBXNativeTarget "Imath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0DB9A89BA54CD7A96797A0 /* Debug */,
+				0D8310BB50244F738D01F194 /* Release */,
+				2431B513DFFD465785903C38 /* MinSizeRel */,
+				0B5A3143AF5C4296989C71FF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D2ED24A18E04A209475EE5E /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AAB06648CC48A584045CD9 /* Debug */,
+				44B26AE473624BBDB2BAAEDF /* Release */,
+				C8AB057429774428B2183471 /* MinSizeRel */,
+				6DC311A77A244D5AAE4E6A09 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		311EE81B9EC047E3A2A99E35 /* Build configuration list for PBXNativeTarget "Half" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DDFD902B4941BD9DDC21F7 /* Debug */,
+				CE075B214375489FACBB601D /* Release */,
+				93275179CE66434B905D9C5E /* MinSizeRel */,
+				A874791C1E5B46DD894D4F61 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5504D39976024293AD7DAB49 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314C429DDDD46DE8E5A6FCE /* Debug */,
+				07525D1AE3184D649829A27A /* Release */,
+				9CE24567BACA4BD7B450EB1E /* MinSizeRel */,
+				C9EC8356DCEE488B8BD5D705 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73B6C98196344F17BDAFFA39 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A2AEC74B994F008B51197D /* Debug */,
+				39B5D33E82CD4A659E8AE6F3 /* Release */,
+				5F75AA865E374A2EAC0E8EDC /* MinSizeRel */,
+				FCBECE1081CD409D900907F6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		74F24E3ACF974348AE412C84 /* Build configuration list for PBXNativeTarget "eLut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A360ACDB88DA4303BB735D5D /* Debug */,
+				FD8A158E95CA48F39ADC784C /* Release */,
+				C0F0210753BD43909E0F643C /* MinSizeRel */,
+				C49DF31A38644060B0CE04AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9EC39CB2171343A182D58C52 /* Build configuration list for PBXNativeTarget "toFloat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7F51E2BB8B420D8BFAAD79 /* Debug */,
+				08234A802F1B4EAC976DCE3C /* Release */,
+				BA3356D410194CE09B4F6B0A /* MinSizeRel */,
+				24C47C1386F648D29105D0D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A435C0BFB7B94094B6D0D6A2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18865A4D84624BE98D7C22EC /* Debug */,
+				231CE6E173E442D0B014CAB2 /* Release */,
+				1F404DF93AE84ED695076043 /* MinSizeRel */,
+				FB6A8117AD124C258FE6DFAC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C164F355A48845619F977739 /* Build configuration list for PBXNativeTarget "IexMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC2E1A279704FBEAA7BC6D7 /* Debug */,
+				66F4A23C3F1B4FF78DF3C78D /* Release */,
+				13B44178E40144B68C0C9399 /* MinSizeRel */,
+				1728C60B8F924E66B5E3E6BD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4B16848981B4A0CAC4006F7 /* Build configuration list for PBXNativeTarget "Iex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB94348ACE4A4629B74EBFB3 /* Debug */,
+				6312944DBD8F44B086DC93DE /* Release */,
+				7605C8821A0A416AA00F4C00 /* MinSizeRel */,
+				F9AD919887F446FF89D5050B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C6D4106697154B6F8D43A166 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B1C83D95564E418F098809 /* Debug */,
+				5BE39CD818F2422AAF6847D6 /* Release */,
+				C95B83C012E448048586EC4F /* MinSizeRel */,
+				2BA3151D2D744776A272AFE4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9F89677252E41F183F9E647 /* Build configuration list for PBXProject "ilmbase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD26971A7194269B296B684 /* Debug */,
+				1AA240219C9D4DA4B9EFC2EC /* Release */,
+				B330276697034AE1B48AB3CF /* MinSizeRel */,
+				386F4B9C8E754C24B2EE2B1F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A191396EE384AF6BCF98C22 /* Project object */;
+}

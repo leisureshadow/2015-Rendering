@@ -1,0 +1,3 @@
+*.exr
+pbrt-v2-master/src/DerivedData/*
+pbrt-v2-master/src/pbrt.xcodeproj/project.xcworkspace/xcuserdata/*
