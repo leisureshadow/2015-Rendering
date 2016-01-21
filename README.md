@@ -1,5 +1,5 @@
 # 2015-Rendering
-This is a repository of NTU 2015 Rendering assignment.
+This is a repository for NTU 2015 Rendering assignments.
 
 - HW1 height field 2
 - HW2 realistic camera
